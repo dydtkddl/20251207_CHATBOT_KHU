@@ -24,7 +24,7 @@ from tqdm import tqdm
 # ============================================================
 
 # 변환할 HWP/HWPX 가 들어 있는 루트 디렉토리
-INPUT_DIR = Path(r"./hwp_input")
+INPUT_DIR = Path(r"../01_수집/")
 
 # PDF 결과를 저장할 디렉토리
 OUTPUT_DIR = Path(r"./pdf_output")
@@ -32,7 +32,7 @@ OUTPUT_DIR = Path(r"./pdf_output")
 # LibreOffice 실행 파일 경로
 # - Windows 예: r"C:\Program Files\LibreOffice\program\soffice.exe"
 # - Linux/macOS 예: "soffice"  (PATH 에 잡혀 있다면)
-SOFFICE_PATH = r"soffice"
+SOFFICE_PATH = r"/usr/bin/soffice"
 
 # 로그 파일 이름
 LOG_FILE = "hwp_to_pdf_batch.log"
